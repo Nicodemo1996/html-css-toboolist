@@ -39,3 +39,21 @@ body {
   border: none;
   padding: .5% 1%;
 }
+
+div .liste {
+  padding: 15px 31px;
+}
+
+.btn-l {
+
+  background-color: #45ACEE;
+  color: white;
+
+}
+
+.btn-r {
+  background-color: #FFFFFF;
+  color: #CFD3D2;
+  border-color: gray;
+
+}
