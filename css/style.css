@@ -64,15 +64,33 @@ li {
   list-style: none;
 }
 
-.circle::before {
+.circle-x::before {
   display: inline-block;
   width: 15px;
   height: 15px;
   content: "x";
-  background-color: red;
+  color: red;
+  border: solid 1px;
   border-radius: 50%;
   text-align: center;
   line-height: 15px;
   font-size: 11px;
+  margin-right: 5px;
 
+
+
+}
+
+.circle-v::before {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  content: "v";
+  color: green;
+  border: solid 1px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 15px;
+  font-size: 11px;
+  margin-right: 5px;
 }
