@@ -10,12 +10,17 @@ header {
   padding: 8px 16px;
 }
 
+
+
+
+
+
 header img {
   vertical-align: middle;
 }
 
 body {
-  background-color: #4A4C4B;
+  background-color: #F6F8FA;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -45,6 +50,9 @@ body {
 
   background-color: #45ACEE;
   color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+
 
 }
 
@@ -52,6 +60,8 @@ body {
   background-color: #FFFFFF;
   color: #CFD3D2;
   border-color: gray;
+  border-radius: 30px;
+  padding: 5px 10px;
 
 }
 
@@ -76,9 +86,6 @@ li {
   line-height: 15px;
   font-size: 11px;
   margin-right: 5px;
-
-
-
 }
 
 .circle-v::before {
@@ -93,4 +100,73 @@ li {
   line-height: 15px;
   font-size: 11px;
   margin-right: 5px;
+}
+
+ul ul li {
+  line-height: 40px;
+}
+
+ul ul {
+  margin-bottom: 13px;
+}
+
+li {
+  line-height: 40px;
+}
+
+
+
+
+.bdg {
+  padding: 5px 8px;
+  color: #FFFFFF;
+  font-size: .8 rem;
+}
+
+.bdg-editorial {
+  background-color: #48ADE5;
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+.bdg-q1goals {
+  background-color: #9873E9;
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+.bgn-recruiting {
+  background-color: #67BFA6;
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+.bdg-mobile {
+  background-color: #EEA227;
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+.bdg-web {
+  background-color: #DC64A4;
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+.bdg-sales {
+  background-color: #B0C923;
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: #FFFFFF;
+  font-size: 10px;
 }
