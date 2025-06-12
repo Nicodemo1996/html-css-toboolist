@@ -40,9 +40,6 @@ body {
   padding: .5% 1%;
 }
 
-div .liste {
-  padding: 15px 31px;
-}
 
 .btn-l {
 
@@ -55,5 +52,27 @@ div .liste {
   background-color: #FFFFFF;
   color: #CFD3D2;
   border-color: gray;
+
+}
+
+/* LISTE */
+div .liste {
+  padding: 15px 31px;
+}
+
+li {
+  list-style: none;
+}
+
+.circle::before {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  content: "x";
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 15px;
+  font-size: 11px;
 
 }
